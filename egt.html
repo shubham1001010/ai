@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url("im.png") rgba(0,0,0,0.2);
+     
+    }
+    .quiz-container {
+      max-width: 800px;
+      margin: 20px auto;
+      margin-left: 5px;
+      margin-right: 5px;
+      padding: 20px;
+      margin-top: 15%;
+      background: #fff;
+      backdrop-filter: blur(24px); /* Add blur effect to the background */
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    #quiz {
+      padding-top: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .question {
+      margin-bottom: 20px;
+    }
+    .options {
+      list-style-type: none;
+      padding: 0;
+    }
+    .options li {
+      margin: 10px 0;
+    }
+    button {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    .result {
+      text-align: left;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+    #graph {
+      width: 100%;
+      height: 300px;
+      margin-top: 20px;
+    }
+    .result-detail {
+      margin-top: 30px;
+      font-size: 18px;
+    }
+    .result-detail .question {
+      color: black;
+      font-weight: bold;
+    }
+    .result-detail .user-answer,
+    .result-detail .correct-answer,
+    .result-detail .explanation {
+      color: darkblue;
+    }
+    .score {
+      font-size: 30px;
+      font-weight: bold;
+      color: #007BFF;
+    }
+    #head {
+      font-size: 25px;
+      border: double 5px black; /* Double thick border */
+      padding: 10px;
+      margin-bottom: 20px;
+      
+    }
+    #timer {
+      position: absolute;
+      right: 20px;
+      top: -35px;
+      font-size: 20px;
+      font-weight: 900;
+      color: #FF0000;
+    }
+  </style>
+</head>
+<body>
+  <div class="quiz-container">
+    <h1 id="head">GENETICS AND EVOLUTION</h1>
+    <div id="timer">Time: 02:00:00</div>
+    <div id="quiz"></div>
+    <div id="navigation">
+      <button id="prev" disabled>Previous</button>
+      <button id="next">Next</button>
+      <button id="submit" style="display:none;">Submit</button>
+    </div>
+    <div id="result1" class="result1"></div>
+    <canvas id="graph" style="display:none;"></canvas>
+    <div id="result" class="result"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+  <script>
+    let currentQuestionIndex = 0;
+    let userAnswers = [];
+    let questionsData = [];
+    let startTime, timerInterval;
+    let timeLeft = 2 * 60 * 60 ; // 2 hours in seconds
+
+    async function loadQuiz() {
+      const response = await fetch('f.json');
+      questionsData = await response.json();
+      displayQuestion(currentQuestionIndex);
+      startTimer();
+    }
+
+    function displayQuestion(index) {
+      const question = questionsData[index];
+      const quizContainer = document.getElementById('quiz');
+      quizContainer.innerHTML = `
+        <div class="question">
+          <p><strong>Q${index + 1}. ${question.question}</strong></p>
+          <ul class="options">
+            <li><label><input type="radio" name="question${question.no}" value="a"> ${question.a}</label></li>
+            <li><label><input type="radio" name="question${question.no}" value="b"> ${question.b}</label></li>
+            <li><label><input type="radio" name="question${question.no}" value="c"> ${question.c}</label></li>
+            <li><label><input type="radio" name="question${question.no}" value="d"> ${question.d}</label></li>
+          </ul>
+        </div>
+      `;
+      document.getElementById('prev').disabled = index === 0;
+      document.getElementById('next').style.display = index === questionsData.length - 1 ? 'none' : 'inline-block';
+      document.getElementById('submit').style.display = index === questionsData.length - 1 ? 'inline-block' : 'none';
+    }
+
+    function getUserAnswer(index) {
+      const selectedOption = document.querySelector(`input[name="question${questionsData[index].no}"]:checked`);
+      return selectedOption ? selectedOption.value : null;
+    }
+
+    document.getElementById('next').addEventListener('click', () => {
+      const answer = getUserAnswer(currentQuestionIndex);
+      userAnswers[currentQuestionIndex] = answer;
+      currentQuestionIndex++;
+      displayQuestion(currentQuestionIndex);
+    });
+
+    document.getElementById('prev').addEventListener('click', () => {
+      const answer = getUserAnswer(currentQuestionIndex);
+      userAnswers[currentQuestionIndex] = answer;
+      currentQuestionIndex--;
+      displayQuestion(currentQuestionIndex);
+    });
+
+    document.getElementById('submit').addEventListener('click', () => {
+      const answers = calculateResults();
+      showResults(answers);
+    });
+
+    function startTimer() {
+      startTime = Date.now();
+      timerInterval = setInterval(updateTimer, 1000);
+    }
+
+    function updateTimer() {
+      timeLeft--;
+      const hours = Math.floor(timeLeft / 3600);
+      const minutes = Math.floor((timeLeft % 3600) / 60);
+      const seconds = timeLeft % 60;
+      document.getElementById('timer').innerText = `Time: ${formatTime(hours)}:${formatTime(minutes)}:${formatTime(seconds)}`;
+      
+      if (timeLeft <= 0) {
+        clearInterval(timerInterval);
+        alert('Time is up! The quiz will now be submitted automatically.');
+        const answers = calculateResults();
+        showResults(answers);
+      }
+    }
+
+    function formatTime(time) {
+      return time < 10 ? `0${time}` : time;
+    }
+
+    function calculateResults() {
+  let correct = 0;
+  let incorrect = 0;
+  let unattempted = 0;
+  const answers = [];
+
+  questionsData.forEach((q, index) => {
+    const answer = userAnswers[index];
+    if (answer === null || answer === undefined) {
+      // If answer is null or undefined, it means the question was unattempted.
+      unattempted++;
+      answers.push({ ...q, userAnswer: 'Not Answered' });
+    } else if (answer === q.correct_answer) {
+      correct++;
+      answers.push({ ...q, userAnswer: answer, correct: true });
+    } else {
+      incorrect++;
+      answers.push({ ...q, userAnswer: answer, correct: false });
+    }
+  });
+
+  const score = (correct * 4) + (incorrect * -1) + (unattempted * 0);
+
+  return {
+    correct,
+    incorrect,
+    unattempted,
+    answers,
+    score,
+    timeTaken: formatTime(Math.floor((Date.now() - startTime) / 1000))
+  };
+}
+
+
+    function showResults({ correct, incorrect, unattempted, answers, score, timeTaken }) {
+      document.getElementById('quiz').style.display = 'none';
+      document.getElementById('navigation').style.display = 'none';
+      document.getElementById('timer').style.display = 'none';
+
+      document.getElementById('result1').innerHTML = `
+        <h1>Results</h1>
+        <p class="score">You scored ${score} points</p>
+        <p>Correct: ${correct}, Incorrect: ${incorrect}, Unattempted: ${unattempted}</p>
+        <p>Time Taken: ${timeTaken}</p>
+      `;
+
+      displayGraph(correct, incorrect, unattempted);
+      showAnswersWithExplanation(answers);
+    }
+
+    function displayGraph(correct, incorrect, unattempted) {
+      document.getElementById('graph').style.display = 'block';
+      const ctx = document.getElementById('graph').getContext('2d');
+      new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+          labels: ['Correct', 'Incorrect', 'Unattempted'],
+          datasets: [{
+            data: [correct, incorrect, unattempted],
+            backgroundColor: ['#4CAF50', '#FF5722', '#FFC107']
+          }]
+        },
+        options: {
+          plugins: {
+            datalabels: {
+              display: true,
+              formatter: (value) => value,
+              color: '#fff',
+            }
+          }
+        }
+      });
+    }
+
+    function showAnswersWithExplanation(answers) {
+  const resultDiv = document.getElementById('result');
+  resultDiv.innerHTML = '<h2>Answer Details</h2>';
+  answers.forEach(answer => {
+    const questionStyle = 'color: black; font-weight: bold;';
+    const optionStyle = 'color: darkblue;';
+    const options = `
+      <p style="${optionStyle}"><strong>Option A: </strong>${answer.a}</p>
+      <p style="${optionStyle}"><strong>Option B: </strong>${answer.b}</p>
+      <p style="${optionStyle}"><strong>Option C: </strong>${answer.c}</p>
+      <p style="${optionStyle}"><strong>Option D: </strong>${answer.d}</p>
+    `;
+    resultDiv.innerHTML += `
+      <div class="result-detail">
+        <p class="question" style="${questionStyle}">Q${answer.no}. ${answer.question}</p>
+        ${options}
+        <p class="user-answer" style="${optionStyle}"><strong>Your Answer: </strong>${answer.userAnswer}</p>
+        <p class="correct-answer" style="${optionStyle}"><strong>Correct Answer: </strong>${answer.correct_answer}</p>
+        <p class="explanation" style="${optionStyle}"><strong>Explanation: </strong>${answer.explanation}</p>
+      </div>
+    `;
+  });
+}
+
+    // Initialize the quiz
+    loadQuiz();
+  </script>
+</body>
+</html>

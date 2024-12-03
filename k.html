@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AR with TensorFlow.js and WebXR</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/handpose"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgl"></script>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="arCanvas"></canvas>
+
+  <script>
+    let handposeModel;
+    let video;
+    let predictions = [];
+
+    async function loadHandposeModel() {
+      // Load the handpose model
+      handposeModel = await handpose.load();
+      console.log('Handpose model loaded.');
+    }
+
+    async function setupCamera() {
+      // Set up the camera (this will use the user's webcam)
+      video = document.createElement('video');
+      const stream = await navigator.mediaDevices.getUserMedia({
+        video: true
+      });
+      video.srcObject = stream;
+      video.width = window.innerWidth;
+      video.height = window.innerHeight;
+      video.play();
+      
+      // Initialize WebXR for AR
+      await startAR();
+    }
+
+    async function startAR() {
+      const canvas = document.getElementById("arCanvas");
+      const ctx = canvas.getContext("2d");
+
+      // Create an AR session
+      if ('xr' in navigator) {
+        const session = await navigator.xr.requestSession('immersive-ar');
+        session.addEventListener('end', () => {
+          console.log('AR Session ended');
+        });
+        await session.requestReferenceSpace('local');
+        session.updateWorldTrackingState({width: 5, height: 5});
+        
+        // Continuously process frames
+        session.requestAnimationFrame((time, frame) => {
+          detectHandGestures(time, frame, ctx);
+        });
+      }
+    }
+
+    async function detectHandGestures(time, frame, ctx) {
+      // Predict hand positions using the handpose model
+      predictions = await handposeModel.estimateHands(video);
+
+      // Draw hand predictions on the canvas
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+      if (predictions.length > 0) {
+        predictions.forEach(prediction => {
+          const landmarks = prediction.landmarks;
+          // Draw landmarks on the canvas (optional, for visual feedback)
+          for (let i = 0; i < landmarks.length; i++) {
+            const [x, y, z] = landmarks[i];
+            ctx.beginPath();
+            ctx.arc(x, y, 5, 0, 2 * Math.PI);
+            ctx.fillStyle = "red";
+            ctx.fill();
+          }
+
+          // Example: if the thumb and index fingers are close, it's a gesture
+          if (Math.abs(landmarks[4][0] - landmarks[8][0]) < 30 && Math.abs(landmarks[4][1] - landmarks[8][1]) < 30) {
+            console.log("Gesture detected: Pinch!");
+            // You can trigger AR events or move a model in AR here
+          }
+        });
+      }
+
+      // Continue the animation
+      frame.session.requestAnimationFrame((time, frame) => {
+        detectHandGestures(time, frame, ctx);
+      });
+    }
+
+    // Start the process
+    window.onload = async () => {
+      await loadHandposeModel();
+      await setupCamera();
+    };
+  </script>
+</body>
+</html>

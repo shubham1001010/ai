@@ -1,0 +1,1203 @@
+[
+  {
+    "no": 1,
+    "question": "Who is known as the father of genetics?",
+    "a": "Charles Darwin",
+    "b": "Gregor Mendel",
+    "c": "Francis Crick",
+    "d": "James Watson",
+    "correct_answer": "b",
+    "explanation": "Gregor Mendel is known as the father of genetics for his pioneering work on pea plants and the laws of inheritance."
+  },
+  {
+    "no": 2,
+    "question": "Which of the following represents Mendel's first law?",
+    "a": "Law of Independent Assortment",
+    "b": "Law of Dominance",
+    "c": "Law of Segregation",
+    "d": "Law of Evolution",
+    "correct_answer": "c",
+    "explanation": "Mendel's first law, the Law of Segregation, states that allele pairs separate during gamete formation and randomly unite during fertilization."
+  },
+  {
+    "no": 3,
+    "question": "What is the phenotypic ratio observed in F2 generation of a dihybrid cross?",
+    "a": "9:3:3:1",
+    "b": "3:1",
+    "c": "1:2:1",
+    "d": "1:1",
+    "correct_answer": "a",
+    "explanation": "Mendel observed a 9:3:3:1 phenotypic ratio in the F2 generation of a dihybrid cross."
+  },
+  {
+    "no": 4,
+    "question": "Which of the following is an example of incomplete dominance?",
+    "a": "AB blood group in humans",
+    "b": "Red and white flowers producing pink flowers in snapdragons",
+    "c": "Height in humans",
+    "d": "Skin color in humans",
+    "correct_answer": "b",
+    "explanation": "Incomplete dominance occurs when a heterozygous genotype results in a phenotype that is a blend of both alleles, as seen in snapdragons."
+  },
+  {
+    "no": 5,
+    "question": "What is the probability of producing a tall pea plant if a heterozygous tall plant is crossed with a homozygous recessive dwarf plant?",
+    "a": "25%",
+    "b": "50%",
+    "c": "75%",
+    "d": "100%",
+    "correct_answer": "b",
+    "explanation": "The cross produces 50% tall (Tt) and 50% dwarf (tt) offspring."
+  },
+  {
+    "no": 6,
+    "question": "Which process involves the transfer of genetic material between non-homologous chromosomes?",
+    "a": "Crossing over",
+    "b": "Translocation",
+    "c": "Duplication",
+    "d": "Inversion",
+    "correct_answer": "b",
+    "explanation": "Translocation is the transfer of a segment of DNA from one chromosome to a non-homologous chromosome."
+  },
+  {
+    "no": 7,
+    "question": "Which scientist proposed the chromosomal theory of inheritance?",
+    "a": "Mendel",
+    "b": "Sutton and Boveri",
+    "c": "Morgan",
+    "d": "Darwin",
+    "correct_answer": "b",
+    "explanation": "Sutton and Boveri proposed that chromosomes are the carriers of genetic material, leading to the chromosomal theory of inheritance."
+  },
+  {
+    "no": 8,
+    "question": "Which type of mutation involves a single nucleotide substitution?",
+    "a": "Point mutation",
+    "b": "Frameshift mutation",
+    "c": "Chromosomal mutation",
+    "d": "Duplication",
+    "correct_answer": "a",
+    "explanation": "A point mutation involves a single nucleotide substitution, such as in sickle cell anemia."
+  },
+  {
+    "no": 9,
+    "question": "What does the Hardy-Weinberg principle state?",
+    "a": "Genetic drift stabilizes allele frequencies",
+    "b": "Allele and genotype frequencies remain constant in a population in equilibrium",
+    "c": "Mutation rates are inversely proportional to evolution",
+    "d": "Population size determines inheritance patterns",
+    "correct_answer": "b",
+    "explanation": "The Hardy-Weinberg principle states that allele and genotype frequencies in a population remain constant from generation to generation unless influenced by external factors."
+  },
+  {
+    "no": 10,
+    "question": "What is the primary cause of genetic drift?",
+    "a": "Natural selection",
+    "b": "Random changes in allele frequencies",
+    "c": "Mutations",
+    "d": "Gene flow",
+    "correct_answer": "b",
+    "explanation": "Genetic drift is caused by random changes in allele frequencies, often in small populations."
+  },
+  {
+    "no": 11,
+    "question": "Which of the following genetic disorders is sex-linked?",
+    "a": "Sickle cell anemia",
+    "b": "Hemophilia",
+    "c": "Down syndrome",
+    "d": "Cystic fibrosis",
+    "correct_answer": "b",
+    "explanation": "Hemophilia is a sex-linked disorder caused by a mutation in the X chromosome."
+  },
+  {
+    "no": 12,
+    "question": "What is the genetic basis of Down syndrome?",
+    "a": "Deletion of chromosome 21",
+    "b": "Trisomy of chromosome 21",
+    "c": "Duplication of chromosome 13",
+    "d": "Monosomy of chromosome 21",
+    "correct_answer": "b",
+    "explanation": "Down syndrome is caused by trisomy of chromosome 21, leading to characteristic physical and cognitive features."
+  },
+  {
+    "no": 13,
+    "question": "What is a karyotype?",
+    "a": "A type of genetic mutation",
+    "b": "A pictorial representation of chromosomes",
+    "c": "A type of protein synthesis",
+    "d": "A DNA replication process",
+    "correct_answer": "b",
+    "explanation": "A karyotype is a pictorial representation of an individual's chromosomes arranged by size and shape."
+  },
+  {
+    "no": 14,
+    "question": "Which of the following is an example of polygenic inheritance?",
+    "a": "ABO blood group system",
+    "b": "Sickle cell anemia",
+    "c": "Human skin color",
+    "d": "Hemophilia",
+    "correct_answer": "c",
+    "explanation": "Human skin color is controlled by multiple genes, making it an example of polygenic inheritance."
+  },
+  {
+    "no": 15,
+    "question": "Which scientist gave the theory of evolution by natural selection?",
+    "a": "Lamarck",
+    "b": "Darwin",
+    "c": "Wallace",
+    "d": "Mendel",
+    "correct_answer": "b",
+    "explanation": "Charles Darwin proposed the theory of evolution by natural selection in his book 'On the Origin of Species.'"
+  },
+  {
+    "no": 16,
+    "question": "Which type of selection favors individuals with extreme phenotypes?",
+    "a": "Stabilizing selection",
+    "b": "Directional selection",
+    "c": "Disruptive selection",
+    "d": "Artificial selection",
+    "correct_answer": "c",
+    "explanation": "Disruptive selection favors individuals with extreme phenotypes and can lead to speciation."
+  },
+  {
+    "no": 17,
+    "question": "What is the main difference between prokaryotic and eukaryotic DNA?",
+    "a": "Eukaryotic DNA is circular; prokaryotic DNA is linear",
+    "b": "Prokaryotic DNA is circular; eukaryotic DNA is linear",
+    "c": "Both have linear DNA",
+    "d": "Both have circular DNA",
+    "correct_answer": "b",
+    "explanation": "Prokaryotic DNA is circular and found in the cytoplasm, whereas eukaryotic DNA is linear and located in the nucleus."
+  },
+  {
+    "no": 18,
+    "question": "What is a codon?",
+    "a": "A group of 2 nucleotides",
+    "b": "A group of 3 nucleotides that codes for an amino acid",
+    "c": "A single nucleotide",
+    "d": "A group of proteins",
+    "correct_answer": "b",
+    "explanation": "A codon is a sequence of 3 nucleotides on mRNA that codes for a specific amino acid."
+  },
+  {
+    "no": 19,
+    "question": "Which of the following is true for linked genes?",
+    "a": "They assort independently",
+    "b": "They are found on different chromosomes",
+    "c": "They tend to be inherited together",
+    "d": "They are never separated",
+    "correct_answer": "c",
+    "explanation": "Linked genes are located on the same chromosome and tend to be inherited together unless crossing over separates them."
+  },
+  {
+    "no": 20,
+    "question": "Which evolutionary concept explains the sudden appearance of new species in the fossil record?",
+    "a": "Gradualism",
+    "b": "Punctuated equilibrium",
+    "c": "Natural selection",
+    "d": "Artificial selection",
+    "correct_answer": "b",
+    "explanation": "Punctuated equilibrium suggests that species remain stable for long periods, with rapid bursts of speciation."
+  },
+  {
+    "no": 21,
+    "question": "Which genetic disorder is caused by a single base substitution in the beta-globin gene?",
+    "a": "Cystic fibrosis",
+    "b": "Sickle cell anemia",
+    "c": "Hemophilia",
+    "d": "Down syndrome",
+    "correct_answer": "b",
+    "explanation": "Sickle cell anemia results from a single base substitution in the beta-globin gene, leading to abnormal hemoglobin."
+  },
+  {
+    "no": 22,
+    "question": "Which mechanism contributes to genetic variation during meiosis?",
+    "a": "Binary fission",
+    "b": "Crossing over",
+    "c": "Mitosis",
+    "d": "DNA replication",
+    "correct_answer": "b",
+    "explanation": "Crossing over during prophase I of meiosis allows exchange of genetic material between homologous chromosomes, creating variation."
+  },
+  {
+    "no": 23,
+    "question": "What is the function of the enzyme DNA helicase?",
+    "a": "Joining Okazaki fragments",
+    "b": "Unwinding the DNA helix",
+    "c": "Synthesizing RNA primers",
+    "d": "Repairing DNA mutations",
+    "correct_answer": "b",
+    "explanation": "DNA helicase unwinds the double helix during DNA replication to allow the strands to be copied."
+  },
+  {
+    "no": 24,
+    "question": "What is the RNA sequence transcribed from the DNA template strand 3'-TACGAT-5'?",
+    "a": "3'-AUGCUA-5'",
+    "b": "5'-AUGCUA-3'",
+    "c": "5'-UACGAU-3'",
+    "d": "3'-UACGAU-5'",
+    "correct_answer": "b",
+    "explanation": "During transcription, complementary RNA nucleotides are paired with the DNA template strand: A pairs with U, and C pairs with G."
+  },
+  {
+    "no": 25,
+    "question": "What is a characteristic feature of autosomal recessive inheritance?",
+    "a": "Disease affects males more frequently",
+    "b": "Only one copy of the mutant allele is needed",
+    "c": "Both parents must carry the mutant allele",
+    "d": "The disorder skips generations",
+    "correct_answer": "c",
+    "explanation": "In autosomal recessive inheritance, both parents must carry one copy of the mutant allele for the child to be affected."
+  },
+  {
+    "no": 26,
+    "question": "Which type of RNA carries the genetic code to ribosomes?",
+    "a": "tRNA",
+    "b": "mRNA",
+    "c": "rRNA",
+    "d": "snRNA",
+    "correct_answer": "b",
+    "explanation": "mRNA carries the genetic code transcribed from DNA to ribosomes for protein synthesis."
+  },
+  {
+    "no": 27,
+    "question": "What is the end product of translation?",
+    "a": "DNA",
+    "b": "RNA",
+    "c": "A polypeptide chain",
+    "d": "A carbohydrate",
+    "correct_answer": "c",
+    "explanation": "Translation involves decoding mRNA into a sequence of amino acids, resulting in a polypeptide chain."
+  },
+  {
+    "no": 28,
+    "question": "Which scientist discovered the structure of DNA?",
+    "a": "Watson and Crick",
+    "b": "Mendel",
+    "c": "Hershey and Chase",
+    "d": "Rosalind Franklin",
+    "correct_answer": "a",
+    "explanation": "Watson and Crick discovered the double helix structure of DNA, with contributions from Rosalind Franklin's X-ray diffraction data."
+  },
+  {
+    "no": 29,
+    "question": "What is genetic drift?",
+    "a": "The movement of genes between populations",
+    "b": "Random changes in allele frequencies",
+    "c": "Natural selection favoring certain alleles",
+    "d": "Formation of new species",
+    "correct_answer": "b",
+    "explanation": "Genetic drift refers to random changes in allele frequencies, especially in small populations."
+  },
+  {
+    "no": 30,
+    "question": "Which evolutionary process involves changes in allele frequency due to migration?",
+    "a": "Natural selection",
+    "b": "Genetic drift",
+    "c": "Gene flow",
+    "d": "Mutation",
+    "correct_answer": "c",
+    "explanation": "Gene flow occurs when individuals migrate between populations, altering allele frequencies in both populations."
+  }, 
+{
+    "no": 31,
+    "question": "Which of the following pairs is correctly matched with its function?",
+    "a": "tRNA - Transfers genetic information",
+    "b": "mRNA - Carries amino acids to ribosomes",
+    "c": "rRNA - Catalyzes peptide bond formation",
+    "d": "snRNA - Synthesizes proteins",
+    "correct_answer": "c",
+    "explanation": "rRNA is a component of the ribosome and plays a crucial role in catalyzing peptide bond formation during protein synthesis."
+  },
+  {
+    "no": 32,
+    "question": "Which genetic phenomenon leads to the appearance of new alleles in a population?",
+    "a": "Mutation",
+    "b": "Natural selection",
+    "c": "Genetic drift",
+    "d": "Gene flow",
+    "correct_answer": "a",
+    "explanation": "Mutations are changes in the DNA sequence that introduce new alleles into a population."
+  },
+  {
+    "no": 33,
+    "question": "What is the expected genotypic ratio of the offspring in a monohybrid cross of two heterozygous parents?",
+    "a": "3:1",
+    "b": "1:1",
+    "c": "1:2:1",
+    "d": "9:3:3:1",
+    "correct_answer": "c",
+    "explanation": "The genotypic ratio of a monohybrid cross involving two heterozygous parents (Tt × Tt) is 1 (TT): 2 (Tt): 1 (tt)."
+  },
+  {
+    "no": 34,
+    "question": "Which term describes the physical expression of a gene?",
+    "a": "Genotype",
+    "b": "Phenotype",
+    "c": "Allele",
+    "d": "Chromosome",
+    "correct_answer": "b",
+    "explanation": "Phenotype refers to the observable characteristics of an organism resulting from the interaction of its genotype with the environment."
+  },
+  {
+    "no": 35,
+    "question": "What is the process by which DNA is copied into RNA?",
+    "a": "Translation",
+    "b": "Replication",
+    "c": "Transcription",
+    "d": "Reverse transcription",
+    "correct_answer": "c",
+    "explanation": "Transcription is the process by which the genetic information in DNA is copied into messenger RNA (mRNA)."
+  },
+  {
+    "no": 36,
+    "question": "What is the primary role of natural selection in evolution?",
+    "a": "Increasing genetic drift",
+    "b": "Maintaining constant allele frequencies",
+    "c": "Increasing the frequency of advantageous traits",
+    "d": "Introducing new alleles",
+    "correct_answer": "c",
+    "explanation": "Natural selection increases the frequency of traits that improve survival and reproduction in a specific environment."
+  },
+  {
+    "no": 37,
+    "question": "Which structure in the cell is responsible for protein synthesis?",
+    "a": "Nucleus",
+    "b": "Ribosome",
+    "c": "Mitochondria",
+    "d": "Golgi apparatus",
+    "correct_answer": "b",
+    "explanation": "Ribosomes are the site of protein synthesis, where mRNA is translated into a polypeptide chain."
+  },
+  {
+    "no": 38,
+    "question": "What is the role of a promoter in transcription?",
+    "a": "Terminating transcription",
+    "b": "Binding site for RNA polymerase",
+    "c": "Synthesizing RNA",
+    "d": "Splicing RNA",
+    "correct_answer": "b",
+    "explanation": "A promoter is a DNA sequence where RNA polymerase binds to initiate transcription."
+  },
+  {
+    "no": 39,
+    "question": "Which of the following represents a chromosomal aberration?",
+    "a": "Point mutation",
+    "b": "Insertion of a single nucleotide",
+    "c": "Deletion of a chromosomal segment",
+    "d": "Base-pair substitution",
+    "correct_answer": "c",
+    "explanation": "Deletion of a chromosomal segment is a structural change in the chromosome, classified as a chromosomal aberration."
+  },
+  {
+    "no": 40,
+    "question": "What is the term for genes that are located on the same chromosome?",
+    "a": "Homologous genes",
+    "b": "Recessive genes",
+    "c": "Linked genes",
+    "d": "Dominant genes",
+    "correct_answer": "c",
+    "explanation": "Linked genes are located on the same chromosome and are usually inherited together unless separated by crossing over."
+  },
+  {
+    "no": 41,
+    "question": "Which scientist discovered the law of independent assortment?",
+    "a": "Darwin",
+    "b": "Mendel",
+    "c": "Watson",
+    "d": "Morgan",
+    "correct_answer": "b",
+    "explanation": "Gregor Mendel discovered the law of independent assortment, which states that genes for different traits segregate independently during gamete formation."
+  },
+  {
+    "no": 42,
+    "question": "What is the primary source of genetic variation in sexually reproducing organisms?",
+    "a": "Mitosis",
+    "b": "Genetic drift",
+    "c": "Meiosis and fertilization",
+    "d": "Binary fission",
+    "correct_answer": "c",
+    "explanation": "Meiosis and fertilization shuffle genetic material, leading to increased genetic variation in sexually reproducing organisms."
+  },
+  {
+    "no": 43,
+    "question": "What is the major characteristic of X-linked recessive disorders?",
+    "a": "Only females are affected",
+    "b": "Only males are affected",
+    "c": "More males are affected than females",
+    "d": "Both genders are equally affected",
+    "correct_answer": "c",
+    "explanation": "X-linked recessive disorders are more common in males because they have only one X chromosome, and a single mutation on it can cause the disorder."
+  },
+  {
+    "no": 44,
+    "question": "Which of the following describes a silent mutation?",
+    "a": "Changes the amino acid sequence",
+    "b": "Has no effect on the amino acid sequence",
+    "c": "Introduces a premature stop codon",
+    "d": "Deletes a nucleotide",
+    "correct_answer": "b",
+    "explanation": "A silent mutation changes a nucleotide sequence but does not alter the amino acid sequence due to the redundancy of the genetic code."
+  },
+  {
+    "no": 45,
+    "question": "Which process results in the formation of gametes?",
+    "a": "Mitosis",
+    "b": "Binary fission",
+    "c": "Meiosis",
+    "d": "Replication",
+    "correct_answer": "c",
+    "explanation": "Meiosis is a reductional division process that produces haploid gametes necessary for sexual reproduction."
+  }, 
+{
+    "no": 46,
+    "question": "Which type of mutation involves the replacement of one nucleotide with another?",
+    "a": "Insertion",
+    "b": "Deletion",
+    "c": "Substitution",
+    "d": "Frame-shift mutation",
+    "correct_answer": "c",
+    "explanation": "A substitution mutation replaces one nucleotide with another, potentially altering the codon and its corresponding amino acid."
+  },
+  {
+    "no": 47,
+    "question": "Which component of the operon model acts as the binding site for the repressor protein?",
+    "a": "Promoter",
+    "b": "Operator",
+    "c": "Structural gene",
+    "d": "Regulatory gene",
+    "correct_answer": "b",
+    "explanation": "In the operon model, the operator serves as the binding site for the repressor protein to regulate gene expression."
+  },
+  {
+    "no": 48,
+    "question": "What is the primary role of reverse transcriptase?",
+    "a": "Replication of DNA",
+    "b": "Transcription of DNA to RNA",
+    "c": "Synthesis of DNA from RNA",
+    "d": "Splicing of introns",
+    "correct_answer": "c",
+    "explanation": "Reverse transcriptase synthesizes complementary DNA (cDNA) from an RNA template, a process crucial in retroviruses."
+  },
+  {
+    "no": 49,
+    "question": "What is the primary cause of Down syndrome?",
+    "a": "Deletion of chromosome 21",
+    "b": "Trisomy of chromosome 21",
+    "c": "Duplication of chromosome 18",
+    "d": "Monosomy of chromosome X",
+    "correct_answer": "b",
+    "explanation": "Down syndrome is caused by the presence of an extra copy of chromosome 21 (trisomy 21)."
+  },
+  {
+    "no": 50,
+    "question": "Which scientist provided experimental proof of DNA as the genetic material?",
+    "a": "Gregor Mendel",
+    "b": "Watson and Crick",
+    "c": "Hershey and Chase",
+    "d": "Frederick Griffith",
+    "correct_answer": "c",
+    "explanation": "Hershey and Chase conducted experiments with bacteriophages, proving that DNA, not protein, is the genetic material."
+  }, 
+  {
+    "no": 51,
+    "question": "Which of the following is a characteristic of a homologous chromosome pair?",
+    "a": "They are identical in size and shape",
+    "b": "They carry different genes",
+    "c": "They contain the same alleles",
+    "d": "They come from different parents and may carry different versions of a gene",
+    "correct_answer": "d",
+    "explanation": "Homologous chromosomes come from different parents, and they may carry different alleles of the same gene."
+  },
+  {
+    "no": 52,
+    "question": "Which of the following is an example of stabilizing selection?",
+    "a": "The evolution of antibiotic resistance",
+    "b": "The survival of birds with intermediate beak size",
+    "c": "The appearance of new traits in a population",
+    "d": "The spread of a trait that increases survival in a changing environment",
+    "correct_answer": "b",
+    "explanation": "Stabilizing selection favors intermediate phenotypes and selects against extreme phenotypes, such as birds with very small or large beaks."
+  },
+  {
+    "no": 53,
+    "question": "Which of the following is a result of crossing over during meiosis?",
+    "a": "Production of identical daughter cells",
+    "b": "Exchange of genetic material between homologous chromosomes",
+    "c": "Replication of DNA",
+    "d": "Reduction in chromosome number",
+    "correct_answer": "b",
+    "explanation": "Crossing over during meiosis exchanges genetic material between homologous chromosomes, contributing to genetic variation."
+  },
+  {
+    "no": 54,
+    "question": "What does the Hardy-Weinberg equilibrium principle state?",
+    "a": "Gene frequencies change due to mutation",
+    "b": "Allele frequencies remain constant in a population unless acted upon by evolutionary forces",
+    "c": "Populations evolve to match their environment",
+    "d": "All populations eventually evolve into new species",
+    "correct_answer": "b",
+    "explanation": "The Hardy-Weinberg equilibrium principle states that allele frequencies in a population remain constant unless evolutionary forces such as natural selection, genetic drift, or gene flow act upon the population."
+  },
+  {
+    "no": 55,
+    "question": "What is the role of the ribosome during protein synthesis?",
+    "a": "To transcribe DNA into mRNA",
+    "b": "To translate mRNA into a sequence of amino acids",
+    "c": "To synthesize tRNA",
+    "d": "To package proteins for export",
+    "correct_answer": "b",
+    "explanation": "Ribosomes are the site of protein synthesis, where they translate the mRNA sequence into a chain of amino acids, forming a polypeptide."
+  },
+  {
+    "no": 56,
+    "question": "Which of the following is true about a gene mutation?",
+    "a": "It always results in a disease",
+    "b": "It changes the DNA sequence of a gene",
+    "c": "It occurs only in germ cells",
+    "d": "It does not affect protein function",
+    "correct_answer": "b",
+    "explanation": "A gene mutation changes the DNA sequence of a gene, which may affect protein function depending on the type of mutation."
+  },
+  {
+    "no": 57,
+    "question": "Which of the following is an example of a chromosomal mutation?",
+    "a": "Point mutation",
+    "b": "Insertion",
+    "c": "Deletion of a segment of a chromosome",
+    "d": "Substitution of a single nucleotide",
+    "correct_answer": "c",
+    "explanation": "A chromosomal mutation involves changes to the structure of chromosomes, such as deletions, duplications, or inversions."
+  },
+  {
+    "no": 58,
+    "question": "Which of the following best describes natural selection?",
+    "a": "It selects the organisms with the largest populations",
+    "b": "It occurs only in response to environmental changes",
+    "c": "It favors traits that enhance survival and reproduction",
+    "d": "It is a random process",
+    "correct_answer": "c",
+    "explanation": "Natural selection favors organisms that possess traits that increase their chances of surviving and reproducing in their environment."
+  },
+  {
+    "no": 59,
+    "question": "What is the central dogma of molecular biology?",
+    "a": "DNA → RNA → Protein",
+    "b": "RNA → Protein → DNA",
+    "c": "DNA → Protein → RNA",
+    "d": "Protein → RNA → DNA",
+    "correct_answer": "a",
+    "explanation": "The central dogma of molecular biology describes the flow of genetic information from DNA to RNA and then to protein."
+  },
+  {
+    "no": 60,
+    "question": "Which of the following is a major cause of genetic variation?",
+    "a": "Mitosis",
+    "b": "Meiosis",
+    "c": "Genetic drift",
+    "d": "Asexual reproduction",
+    "correct_answer": "b",
+    "explanation": "Meiosis is a key process in sexual reproduction that introduces genetic variation through mechanisms like crossing over and independent assortment."
+  },
+  {
+    "no": 61,
+    "question": "What is the significance of the 5' cap and 3' poly-A tail on mRNA?",
+    "a": "They help with mRNA splicing",
+    "b": "They protect the mRNA from degradation and assist in translation",
+    "c": "They are involved in DNA replication",
+    "d": "They are responsible for mRNA synthesis",
+    "correct_answer": "b",
+    "explanation": "The 5' cap and 3' poly-A tail protect mRNA from degradation and assist in its export from the nucleus and translation in the cytoplasm."
+  },
+  {
+    "no": 62,
+    "question": "Which of the following occurs during prophase I of meiosis?",
+    "a": "Chromosomes condense and homologous chromosomes pair up",
+    "b": "The nuclear membrane dissolves and spindle fibers form",
+    "c": "Chromosomes align along the equator",
+    "d": "Cytokinesis occurs",
+    "correct_answer": "a",
+    "explanation": "During prophase I of meiosis, chromosomes condense and homologous chromosomes pair up in a process called synapsis."
+  },
+  {
+    "no": 63,
+    "question": "What is the purpose of the lac operon in bacteria?",
+    "a": "To produce proteins needed for DNA replication",
+    "b": "To regulate the metabolism of lactose",
+    "c": "To control cell division",
+    "d": "To protect the cell from harmful substances",
+    "correct_answer": "b",
+    "explanation": "The lac operon in bacteria regulates the metabolism of lactose by controlling the expression of genes involved in lactose breakdown."
+  },
+  {
+    "no": 64,
+    "question": "Which of the following is true regarding sex-linked traits?",
+    "a": "They are found on autosomes",
+    "b": "They are always inherited from the mother",
+    "c": "They are found on the sex chromosomes",
+    "d": "Both males and females are equally affected",
+    "correct_answer": "c",
+    "explanation": "Sex-linked traits are carried on the sex chromosomes, typically the X chromosome, and affect males more often due to their single X chromosome."
+  },
+  {
+    "no": 65,
+    "question": "What is the result of nondisjunction during meiosis?",
+    "a": "No chromosomes are passed on to the daughter cells",
+    "b": "Chromosomes fail to separate properly, leading to aneuploidy",
+    "c": "The chromosomes duplicate without dividing",
+    "d": "The cell enters a resting phase",
+    "correct_answer": "b",
+    "explanation": "Nondisjunction occurs when chromosomes fail to separate properly during meiosis, leading to aneuploidy, such as in Down syndrome."
+  },
+  {
+    "no": 66,
+    "question": "Which of the following describes a frameshift mutation?",
+    "a": "A mutation that adds or deletes one or more nucleotides, changing the reading frame",
+    "b": "A mutation that substitutes one nucleotide for another",
+    "c": "A mutation that occurs outside the coding region",
+    "d": "A mutation that changes the amino acid sequence without altering the protein function",
+    "correct_answer": "a",
+    "explanation": "A frameshift mutation occurs when nucleotides are added or deleted, shifting the reading frame and altering the resulting protein."
+  },
+  {
+    "no": 67,
+    "question": "What is an allele?",
+    "a": "A different form of a gene",
+    "b": "A segment of mRNA",
+    "c": "A type of protein",
+    "d": "A chromosome segment that carries no genetic information",
+    "correct_answer": "a",
+    "explanation": "An allele is a different form of a gene that can produce variations in traits."
+  },
+  {
+    "no": 68,
+    "question": "What is the term for the exchange of genetic material between homologous chromosomes during meiosis?",
+    "a": "Transcription",
+    "b": "Translation",
+    "c": "Crossing over",
+    "d": "Replication",
+    "correct_answer": "c",
+    "explanation": "Crossing over is the exchange of genetic material between homologous chromosomes during meiosis, contributing to genetic variation."
+  },
+  {
+    "no": 69,
+    "question": "Which of the following is a characteristic of a population in Hardy-Weinberg equilibrium?",
+    "a": "Mutations occur regularly",
+    "b": "Allele frequencies change over time",
+    "c": "There is no migration in or out of the population",
+    "d": "Individuals choose mates randomly",
+    "correct_answer": "c",
+    "explanation": "In Hardy-Weinberg equilibrium, there is no gene flow, meaning no migration of individuals into or out of the population."
+  },
+  {
+    "no": 70,
+    "question": "What is the end product of transcription?",
+    "a": "DNA",
+    "b": "Protein",
+    "c": "RNA",
+    "d": "Amino acids",
+    "correct_answer": "c",
+    "explanation": "Transcription produces RNA, which serves as a template for protein synthesis in translation."
+  },
+  {
+    "no": 71,
+    "question": "What happens during telophase of mitosis?",
+    "a": "Chromosomes condense",
+    "b": "The nuclear envelope re-forms",
+    "c": "Spindle fibers disappear",
+    "d": "Chromosomes align at the equator",
+    "correct_answer": "b",
+    "explanation": "During telophase, the nuclear envelope re-forms around the separated chromosomes, preparing for cell division."
+  },
+  {
+    "no": 72,
+    "question": "Which of the following is a characteristic of asexual reproduction?",
+    "a": "Requires two parents",
+    "b": "Produces genetically identical offspring",
+    "c": "Involves meiosis",
+    "d": "Results in genetic variation",
+    "correct_answer": "b",
+    "explanation": "Asexual reproduction results in offspring that are genetically identical to the parent, as it involves mitosis."
+  }, 
+{
+    "no": 73,
+    "question": "Which of the following is true about a point mutation?",
+    "a": "It involves the deletion of a chromosome segment",
+    "b": "It changes only one nucleotide in the DNA sequence",
+    "c": "It always leads to a frameshift",
+    "d": "It affects multiple genes",
+    "correct_answer": "b",
+    "explanation": "A point mutation involves the alteration of a single nucleotide in the DNA sequence, which may or may not change the protein function."
+  },
+  {
+    "no": 74,
+    "question": "What is the function of tRNA in protein synthesis?",
+    "a": "To carry amino acids to the ribosome",
+    "b": "To transcribe DNA into mRNA",
+    "c": "To help in DNA replication",
+    "d": "To form the ribosome",
+    "correct_answer": "a",
+    "explanation": "tRNA (transfer RNA) carries specific amino acids to the ribosome during translation, where they are incorporated into a polypeptide chain."
+  },
+  {
+    "no": 75,
+    "question": "Which of the following is a result of natural selection?",
+    "a": "A random change in allele frequency",
+    "b": "Favoring traits that are beneficial for survival and reproduction",
+    "c": "An increase in genetic variation",
+    "d": "A decrease in mutation rates",
+    "correct_answer": "b",
+    "explanation": "Natural selection favors traits that increase an organism’s chances of survival and reproduction in a given environment."
+  },
+  {
+    "no": 76,
+    "question": "What is the process by which a cell divides to form two genetically identical daughter cells?",
+    "a": "Meiosis",
+    "b": "Mitosis",
+    "c": "Fission",
+    "d": "Binary fission",
+    "correct_answer": "b",
+    "explanation": "Mitosis is the process where a single cell divides into two genetically identical daughter cells, maintaining the same chromosome number."
+  },
+  {
+    "no": 77,
+    "question": "What is the name of the process by which RNA is synthesized from a DNA template?",
+    "a": "Replication",
+    "b": "Translation",
+    "c": "Transcription",
+    "d": "Translocation",
+    "correct_answer": "c",
+    "explanation": "Transcription is the process in which RNA is synthesized from a DNA template, creating mRNA which is then used in protein synthesis."
+  },
+  {
+    "no": 78,
+    "question": "Which of the following statements best describes a gene pool?",
+    "a": "The total number of organisms in a population",
+    "b": "The collection of all the alleles in a population",
+    "c": "The total genetic diversity in a species",
+    "d": "The mutations that occur in a population",
+    "correct_answer": "b",
+    "explanation": "A gene pool refers to the collection of all alleles present in a population at a given time."
+  },
+  {
+    "no": 79,
+    "question": "Which of the following terms refers to the gradual change in a species over time?",
+    "a": "Adaptation",
+    "b": "Evolution",
+    "c": "Speciation",
+    "d": "Mutation",
+    "correct_answer": "b",
+    "explanation": "Evolution is the gradual process through which species change over time due to mechanisms like natural selection, mutation, and genetic drift."
+  },
+  {
+    "no": 80,
+    "question": "Which of the following is the main cause of genetic variation in sexually reproducing organisms?",
+    "a": "Mutation",
+    "b": "Meiosis",
+    "c": "Natural selection",
+    "d": "Gene flow",
+    "correct_answer": "b",
+    "explanation": "Meiosis introduces genetic variation by recombining alleles through crossing over and independent assortment during gamete formation."
+  },
+  {
+    "no": 81,
+    "question": "What is the role of the operator in the lac operon?",
+    "a": "It binds to the promoter to initiate transcription",
+    "b": "It binds to the repressor protein, allowing the transcription of genes",
+    "c": "It catalyzes the breakdown of lactose",
+    "d": "It synthesizes the mRNA for the lac genes",
+    "correct_answer": "b",
+    "explanation": "The operator binds to the repressor protein, and when lactose is present, it prevents the repressor from binding, allowing gene transcription."
+  },
+  {
+    "no": 82,
+    "question": "What occurs during anaphase of mitosis?",
+    "a": "Chromosomes align along the equator of the cell",
+    "b": "Chromosomes are separated and move toward opposite poles",
+    "c": "The nuclear membrane forms around the chromosomes",
+    "d": "The cytoplasm divides into two cells",
+    "correct_answer": "b",
+    "explanation": "During anaphase, the sister chromatids are pulled apart and move to opposite poles of the cell, ensuring each daughter cell gets a complete set of chromosomes."
+  },
+  {
+    "no": 83,
+    "question": "What is the result of a missense mutation?",
+    "a": "A change in the amino acid sequence of the protein",
+    "b": "A change in the length of the DNA sequence",
+    "c": "A nonfunctional protein",
+    "d": "The protein remains unchanged",
+    "correct_answer": "a",
+    "explanation": "A missense mutation results in a change in one amino acid in the protein sequence, potentially altering the protein's function."
+  },
+  {
+    "no": 84,
+    "question": "Which of the following statements is true about codons?",
+    "a": "Each codon codes for a specific amino acid",
+    "b": "Codons are sequences of nucleotides in tRNA",
+    "c": "Each codon codes for a protein",
+    "d": "Codons are found in the ribosomes",
+    "correct_answer": "a",
+    "explanation": "Codons are triplets of nucleotides in mRNA that specify a particular amino acid during protein synthesis."
+  },
+  {
+    "no": 85,
+    "question": "Which type of mutation does not affect the protein sequence?",
+    "a": "Missense mutation",
+    "b": "Nonsense mutation",
+    "c": "Silent mutation",
+    "d": "Frameshift mutation",
+    "correct_answer": "c",
+    "explanation": "A silent mutation changes a nucleotide but does not alter the amino acid sequence of the protein, as the new codon codes for the same amino acid."
+  },
+  {
+    "no": 86,
+    "question": "What is the purpose of the polymerase chain reaction (PCR)?",
+    "a": "To amplify specific segments of DNA",
+    "b": "To repair DNA damage",
+    "c": "To transcribe RNA from a DNA template",
+    "d": "To separate DNA into individual strands",
+    "correct_answer": "a",
+    "explanation": "Polymerase chain reaction (PCR) is used to amplify specific DNA segments, making them easier to study or manipulate in the laboratory."
+  },
+  {
+    "no": 87,
+    "question": "What does the term 'fitness' mean in the context of evolution?",
+    "a": "The physical strength of an organism",
+    "b": "The ability of an organism to survive and reproduce in its environment",
+    "c": "The size of an organism's population",
+    "d": "The speed at which an organism can adapt to changes in the environment",
+    "correct_answer": "b",
+    "explanation": "In evolutionary biology, fitness refers to an organism's ability to survive and reproduce, passing its genes to the next generation."
+  },
+  {
+    "no": 88,
+    "question": "Which of the following is a result of genetic drift?",
+    "a": "Increased genetic variation",
+    "b": "Random changes in allele frequencies in small populations",
+    "c": "Adaptation to the environment",
+    "d": "Directional selection favoring one phenotype",
+    "correct_answer": "b",
+    "explanation": "Genetic drift is the random fluctuation in allele frequencies, which has a stronger effect in small populations."
+  },
+  {
+    "no": 89,
+    "question": "What is a phenotype?",
+    "a": "The genetic makeup of an organism",
+    "b": "The physical expression of an organism's genes",
+    "c": "The mutation rate in an organism's DNA",
+    "d": "The combination of alleles in a population",
+    "correct_answer": "b",
+    "explanation": "A phenotype refers to the observable characteristics of an organism, which are influenced by its genetic makeup and environmental factors."
+  },
+  {
+    "no": 90,
+    "question": "Which of the following best describes a dominant allele?",
+    "a": "It is always expressed when present in an organism",
+    "b": "It is only expressed when both alleles are dominant",
+    "c": "It is recessive to the other allele",
+    "d": "It is always inherited from the mother",
+    "correct_answer": "a",
+    "explanation": "A dominant allele is expressed in the phenotype even when only one copy is present, masking the effect of a recessive allele."
+  }, 
+ {
+    "no": 91,
+    "question": "What is the role of helicase in DNA replication?",
+    "a": "To join Okazaki fragments",
+    "b": "To synthesize RNA primers",
+    "c": "To unwind the DNA double helix",
+    "d": "To add nucleotides to the growing DNA strand",
+    "correct_answer": "c",
+    "explanation": "Helicase unwinds the DNA double helix ahead of the replication fork, allowing the replication process to proceed."
+  },
+  {
+    "no": 92,
+    "question": "What does the central dogma of molecular biology state?",
+    "a": "DNA codes for RNA, which codes for protein",
+    "b": "Proteins are transcribed into RNA",
+    "c": "RNA is translated into DNA",
+    "d": "Genes are inherited from the parents",
+    "correct_answer": "a",
+    "explanation": "The central dogma of molecular biology states that genetic information flows from DNA to RNA and then to protein."
+  },
+  {
+    "no": 93,
+    "question": "Which of the following mutations causes a premature stop codon?",
+    "a": "Missense mutation",
+    "b": "Silent mutation",
+    "c": "Nonsense mutation",
+    "d": "Frameshift mutation",
+    "correct_answer": "c",
+    "explanation": "A nonsense mutation results in a premature stop codon, which truncates the protein and often makes it nonfunctional."
+  },
+  {
+    "no": 94,
+    "question": "What is the function of the promoter in transcription?",
+    "a": "It signals the start of transcription",
+    "b": "It carries the RNA to the ribosome",
+    "c": "It binds to the repressor",
+    "d": "It synthesizes the RNA transcript",
+    "correct_answer": "a",
+    "explanation": "The promoter is a region of DNA that signals the start of transcription, providing a binding site for RNA polymerase."
+  },
+  {
+    "no": 95,
+    "question": "Which of the following types of RNA carries the genetic information from the DNA to the ribosome?",
+    "a": "tRNA",
+    "b": "rRNA",
+    "c": "mRNA",
+    "d": "snRNA",
+    "correct_answer": "c",
+    "explanation": "Messenger RNA (mRNA) carries genetic information from the DNA in the nucleus to the ribosome, where protein synthesis occurs."
+  },
+  {
+    "no": 96,
+    "question": "What is the purpose of the lac operon in bacteria?",
+    "a": "To regulate protein synthesis",
+    "b": "To control the metabolism of lactose",
+    "c": "To repair DNA",
+    "d": "To assist in cell division",
+    "correct_answer": "b",
+    "explanation": "The lac operon is involved in the metabolism of lactose in bacteria by regulating the genes necessary for lactose digestion."
+  },
+  {
+    "no": 97,
+    "question": "Which of the following is a source of genetic variation?",
+    "a": "Mutation",
+    "b": "Meiosis",
+    "c": "Genetic recombination",
+    "d": "All of the above",
+    "correct_answer": "d",
+    "explanation": "Mutation, meiosis (through crossing over and independent assortment), and genetic recombination all contribute to genetic variation in a population."
+  },
+  {
+    "no": 98,
+    "question": "What is the name of the process by which DNA makes an exact copy of itself?",
+    "a": "Transcription",
+    "b": "Translation",
+    "c": "Replication",
+    "d": "Mutation",
+    "correct_answer": "c",
+    "explanation": "DNA replication is the process by which an exact copy of a DNA molecule is made, ensuring that each daughter cell receives an identical copy of the genetic material."
+  },
+  {
+    "no": 99,
+    "question": "Which of the following is true about a sex-linked gene?",
+    "a": "It is carried on an autosome",
+    "b": "It affects only males",
+    "c": "It is located on a sex chromosome",
+    "d": "It is inherited equally by both genders",
+    "correct_answer": "c",
+    "explanation": "Sex-linked genes are located on the sex chromosomes, and in humans, most are carried on the X chromosome."
+  },
+  {
+    "no": 100,
+    "question": "What is the term used to describe a change in the genetic makeup of a population over time?",
+    "a": "Mutation",
+    "b": "Evolution",
+    "c": "Adaptation",
+    "d": "Natural selection",
+    "correct_answer": "b",
+    "explanation": "Evolution is the change in the genetic composition of a population over successive generations, driven by mechanisms like natural selection and genetic drift."
+  },
+  {
+    "no": 101,
+    "question": "Which of the following processes occurs in the nucleus of a cell?",
+    "a": "Protein synthesis",
+    "b": "DNA replication",
+    "c": "ATP production",
+    "d": "Glycolysis",
+    "correct_answer": "b",
+    "explanation": "DNA replication occurs in the nucleus, where the cell's genetic material is copied before cell division."
+  },
+  {
+    "no": 102,
+    "question": "What is a common result of a frameshift mutation?",
+    "a": "A change in one amino acid",
+    "b": "A nonfunctional protein",
+    "c": "No change in the protein",
+    "d": "A silent mutation",
+    "correct_answer": "b",
+    "explanation": "A frameshift mutation alters the reading frame of the gene, often leading to a nonfunctional protein due to changes in the amino acid sequence."
+  },
+  {
+    "no": 103,
+    "question": "What is the role of the ribosome in protein synthesis?",
+    "a": "To transcribe RNA into DNA",
+    "b": "To synthesize proteins by linking amino acids",
+    "c": "To unzip the DNA molecule",
+    "d": "To store genetic information",
+    "correct_answer": "b",
+    "explanation": "The ribosome is the site of protein synthesis, where mRNA is translated into a specific sequence of amino acids to form proteins."
+  },
+  {
+    "no": 104,
+    "question": "Which of the following best describes a recessive allele?",
+    "a": "It is expressed only when two copies are present",
+    "b": "It is always expressed when present",
+    "c": "It is never expressed",
+    "d": "It is expressed in the presence of a dominant allele",
+    "correct_answer": "a",
+    "explanation": "A recessive allele is expressed only when two copies are present, meaning the organism is homozygous for the recessive allele."
+  },
+  {
+    "no": 105,
+    "question": "What is the function of the enzyme RNA polymerase?",
+    "a": "To add nucleotides to the growing RNA strand",
+    "b": "To bind to the promoter during transcription",
+    "c": "To separate the DNA strands during transcription",
+    "d": "All of the above",
+    "correct_answer": "d",
+    "explanation": "RNA polymerase is responsible for adding nucleotides to the growing RNA strand, binding to the promoter, and unwinding the DNA during transcription."
+  }, 
+{
+    "no": 106,
+    "question": "Which of the following is a characteristic of genetic drift?",
+    "a": "It is more noticeable in large populations",
+    "b": "It leads to increased genetic variation",
+    "c": "It occurs by random chance",
+    "d": "It is driven by natural selection",
+    "correct_answer": "c",
+    "explanation": "Genetic drift refers to random changes in allele frequencies that occur in a population, often having a greater effect in smaller populations."
+  },
+  {
+    "no": 107,
+    "question": "What is the role of the anticodon in tRNA?",
+    "a": "To attach the amino acid to the tRNA",
+    "b": "To bind to the mRNA codon during translation",
+    "c": "To synthesize the protein",
+    "d": "To carry the mRNA to the ribosome",
+    "correct_answer": "b",
+    "explanation": "The anticodon is a three-nucleotide sequence in tRNA that binds to the complementary mRNA codon, ensuring correct amino acid incorporation."
+  },
+  {
+    "no": 108,
+    "question": "What is the end product of translation?",
+    "a": "mRNA",
+    "b": "DNA",
+    "c": "Protein",
+    "d": "tRNA",
+    "correct_answer": "c",
+    "explanation": "Translation is the process by which mRNA is decoded by the ribosome to synthesize a protein."
+  },
+  {
+    "no": 109,
+    "question": "Which of the following is true about homologous chromosomes?",
+    "a": "They carry identical genetic information",
+    "b": "They are identical in size and shape",
+    "c": "They come from the same parent",
+    "d": "They carry similar genetic information but may have different alleles",
+    "correct_answer": "d",
+    "explanation": "Homologous chromosomes are chromosome pairs, one from each parent, that carry similar genetic information but may have different alleles."
+  },
+  {
+    "no": 110,
+    "question": "Which of the following processes occurs during meiosis but not mitosis?",
+    "a": "Chromosome replication",
+    "b": "Crossing over",
+    "c": "Cytokinesis",
+    "d": "Formation of a nuclear membrane",
+    "correct_answer": "b",
+    "explanation": "Crossing over occurs during meiosis when homologous chromosomes exchange genetic material, increasing genetic diversity."
+  },
+  {
+    "no": 111,
+    "question": "Which of the following is a type of point mutation?",
+    "a": "Deletion",
+    "b": "Duplication",
+    "c": "Substitution",
+    "d": "Inversion",
+    "correct_answer": "c",
+    "explanation": "A point mutation involves a change in a single nucleotide, and substitution is one form of point mutation."
+  },
+  {
+    "no": 112,
+    "question": "Which of the following best describes gene flow?",
+    "a": "Movement of alleles between different populations",
+    "b": "Random changes in allele frequencies",
+    "c": "Selection for specific traits in a population",
+    "d": "The process of DNA replication",
+    "correct_answer": "a",
+    "explanation": "Gene flow refers to the transfer of alleles between populations due to migration or interbreeding."
+  },
+  {
+    "no": 113,
+    "question": "Which type of RNA is involved in the process of translation?",
+    "a": "mRNA",
+    "b": "tRNA",
+    "c": "rRNA",
+    "d": "All of the above",
+    "correct_answer": "d",
+    "explanation": "All three types of RNA (mRNA, tRNA, and rRNA) are involved in translation, where mRNA carries the message, tRNA brings amino acids, and rRNA forms the ribosome."
+  },
+  {
+    "no": 114,
+    "question": "What is a possible consequence of a frameshift mutation?",
+    "a": "A change in the reading frame of the mRNA",
+    "b": "A silent mutation",
+    "c": "The synthesis of a normal protein",
+    "d": "The addition of a stop codon",
+    "correct_answer": "a",
+    "explanation": "A frameshift mutation alters the reading frame of the mRNA, resulting in a completely different protein sequence and often a nonfunctional protein."
+  },
+  {
+    "no": 115,
+    "question": "Which of the following is an example of artificial selection?",
+    "a": "The adaptation of a species to its environment",
+    "b": "Farmers breeding dogs for specific traits",
+    "c": "A population evolving due to genetic drift",
+    "d": "A species becoming resistant to a pesticide",
+    "correct_answer": "b",
+    "explanation": "Artificial selection involves humans selecting for specific traits in organisms, such as breeding dogs for particular characteristics."
+  },
+  {
+    "no": 116,
+    "question": "What is the term for the process by which an organism makes a copy of its DNA?",
+    "a": "Transcription",
+    "b": "Replication",
+    "c": "Translation",
+    "d": "Mutation",
+    "correct_answer": "b",
+    "explanation": "DNA replication is the process by which an organism makes an exact copy of its DNA, ensuring that each daughter cell receives a full set of genetic material."
+  },
+  {
+    "no": 117,
+    "question": "Which of the following is NOT part of the central dogma of molecular biology?",
+    "a": "DNA to RNA to protein",
+    "b": "Replication",
+    "c": "RNA to DNA to protein",
+    "d": "Transcription",
+    "correct_answer": "c",
+    "explanation": "The central dogma of molecular biology describes the flow of genetic information from DNA to RNA to protein, not from RNA to DNA."
+  },
+  {
+    "no": 118,
+    "question": "What is the outcome of a homozygous recessive genotype?",
+    "a": "The dominant allele will be expressed",
+    "b": "The recessive trait will be expressed",
+    "c": "The genotype will be heterozygous",
+    "d": "The organism will be a carrier of the dominant allele",
+    "correct_answer": "b",
+    "explanation": "A homozygous recessive genotype will express the recessive trait, as both alleles are recessive."
+  },
+  {
+    "no": 119,
+    "question": "Which of the following is an example of a genotype?",
+    "a": "Brown eyes",
+    "b": "Heterozygous Aa",
+    "c": "Tall plant",
+    "d": "Blue color of a flower",
+    "correct_answer": "b",
+    "explanation": "A genotype refers to the genetic makeup of an organism, such as being heterozygous Aa."
+  },
+  {
+    "no": 120,
+    "question": "Which of the following is a function of the cell cycle?",
+    "a": "Growth and development of the organism",
+    "b": "Replication of the cell's genetic material",
+    "c": "Cell division",
+    "d": "All of the above",
+    "correct_answer": "d",
+    "explanation": "The cell cycle includes growth, DNA replication, and cell division, which are essential for the development and maintenance of multicellular organisms."
+  }
+
+]
